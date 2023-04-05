@@ -26,6 +26,10 @@
 
             $body = new Body();
             $html->addElemento($body);
+
+            $menu = new Menu();
+            $body -> addElemento($menu);
+
            
             echo $html;
    
