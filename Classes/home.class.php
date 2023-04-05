@@ -26,10 +26,6 @@
 
             $body = new Body();
             $html->addElemento($body);
-
-            $form = new Formulario();
-            $body->addElemento($form);
-
            
             echo $html;
    
