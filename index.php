@@ -1,8 +1,8 @@
 <?php
 
-  include 'Classes/home_classe.php';
+    include 'autoload.php';
 
-  $otela = new home_classe();
-  $otela->criaPagina();
+    $tela = new Home();
+    $tela->montarPagina();
 
 ?>
