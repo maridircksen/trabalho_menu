@@ -18,7 +18,7 @@
             $head->addElemento($meta2);
             $head->addElemento($meta3);
 
-            $title = new Title('Trabalho - Menu');
+            $title = new Title('Trabalho Mariana - Menu');
             $head->addElemento($title);
 
             $link = new Link ('./css/estilo.css', 'stylesheet');
@@ -28,7 +28,8 @@
             $html->addElemento($body);
 
             $menu = new Menu();
-            $body -> addElemento($menu);
+            $menu->listaMenu();
+            $menu -> listaComando();
 
            
             echo $html;
