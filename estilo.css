@@ -1,0 +1,18 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+
+}
+
+body{
+    margin: 5px;
+}
+
+.caixa {
+    width: 500px;
+    height: 35px;
+    margin-bottom: 5px;
+    padding-left: 4px;
+    
+}

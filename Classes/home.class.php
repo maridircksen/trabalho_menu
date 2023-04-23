@@ -21,15 +21,17 @@
             $title = new Title('Trabalho Mariana - Menu');
             $head->addElemento($title);
 
-            $link = new Link ('./css/estilo.css', 'stylesheet');
-            $head->addElemento($link);
+            $head->addElemento(new Link ('https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css', 'stylesheet'));
+
+            $link2 = new Link ('./css/estilo.css', 'stylesheet');
+            $head->addElemento($link2);
 
             $body = new Body();
             $html->addElemento($body);
 
             $menu = new Menu();
             $menu->listaMenu();
-            $menu -> listaComando();
+            //$menu -> listaComando();
 
            
             echo $html;

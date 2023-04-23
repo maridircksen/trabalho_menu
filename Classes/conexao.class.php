@@ -1,5 +1,5 @@
 <?php
-  class conexao_class {
+  class Conexao {
     private $host = 'mysql:host=localhost;dbname=trabalho';
     private $usuario = 'root';
     private $senha = '';
