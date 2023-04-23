@@ -97,10 +97,10 @@ class Table {
         echo '<input class="caixa" style="color: black;" type="text" name="nome" autocomplete="off" placeholder="Nome" required><br>';
         echo '<input class="caixa" style="color: black;" type="text" name="email" autocomplete="off" placeholder="Email" required><br>';
         echo '<input class="caixa" style="color: black;" type="datetime-local" name="datacadastro" required><br>';
-        echo '<button class="btn btn-outline-success" type="submit" name="alterar"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-plus" viewBox="0 0 16 16">
-        <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H1s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C9.516 10.68 8.289 10 6 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
-        <path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"/>
-      </svg> &nbsp Cadastrar</button>';
+        echo '<button class="btn btn-outline-success" type="submit" name="alterar"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+      </svg> &nbsp Adicionar Pessoa</button>';
         echo '</form>';
         echo '<hr>';
 
@@ -195,10 +195,10 @@ class Table {
         echo '<input class="caixa" style="color: black;" type="text" name="nome" autocomplete="off" placeholder="Nome" required><br>';
         echo '<input class="caixa" style="color: black;" type="number" name="valor" autocomplete="off" placeholder="Valor" required><br>';
         echo '<input class="caixa" style="color: black;" type="number" name="total_estoque" autocomplete="off" placeholder="Estoque" required><br>';
-        echo '<button class="btn btn-outline-success" type="submit" name="alterar"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-plus" viewBox="0 0 16 16">
-        <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H1s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C9.516 10.68 8.289 10 6 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
-        <path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"/>
-      </svg> &nbsp Cadastrar</button>';
+        echo '<button class="btn btn-outline-success" type="submit" name="alterar"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+      </svg> &nbsp Adicionar Produto</button>';
         echo '</form>';
         echo '<hr>';
 
@@ -290,10 +290,10 @@ class Table {
         echo '<input class="caixa" style="color: black;" type="text" name="nome" autocomplete="off" placeholder="Nome" required><br>';
         echo '<input class="caixa" style="color: black;" type="text" name="email" autocomplete="off" placeholder="Email" required><br>';
         echo '<input class="caixa" style="color: black;" type="text" name="senha" autocomplete="off"placeholder="Senha" required><br>';
-        echo '<button class="btn btn-outline-success" type="submit" name="alterar"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-plus" viewBox="0 0 16 16">
-        <path d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H1s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C9.516 10.68 8.289 10 6 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>
-        <path fill-rule="evenodd" d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5z"/>
-      </svg> &nbsp Cadastrar</button>';
+        echo '<button class="btn btn-outline-success" type="submit" name="alterar"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus-circle" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+        <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
+      </svg> &nbsp Adicionar Usuário</button>';
         echo '</form>';
         echo '<hr>';
 
